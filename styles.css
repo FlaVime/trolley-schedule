@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+}
+
+#app {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.grey-background {
+    background-color: #555;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#days {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#days div {
+    flex: 1 0 30%;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: #444;
+}
+
+#days div.current {
+    background-color: #666;
+}
+
+#clock {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.timer-card {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: #444;
+}
+
+.home-gym, .gym-home {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.countdown {
+    color: red;
+}
